@@ -1,0 +1,17 @@
+{
+  "name": "simple-static-site",
+  "version": "1.0.0",
+  "description": "A lightweight static website with blog and newsletter integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve dist",
+    "build": "node src/build.js"
+  },
+  "dependencies": {
+    "marked": "^4.3.0",
+    "serve": "^14.2.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
